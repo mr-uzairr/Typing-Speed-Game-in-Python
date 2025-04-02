@@ -22,6 +22,19 @@ def tperror(prompt):
             else:
                 errors += 1
         return errors
+    
+# to calculate speed of typing words per minute
+def speed(inprompt, stime, etime):
+    global time
+    global inwords
+
+    inwords = inprompt.split()  
+    twords = len(inwords)
+    speed = twords / time
+
+    return speed
+
+ 
                     
 
 
