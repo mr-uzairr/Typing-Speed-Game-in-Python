@@ -45,7 +45,23 @@ if __name__ == '__main__':
     prompt = "Test your typing speed with a fun Python game! Type the given sentence as fast and accurately as possible, and see your words per minute (WPM) score."
      # paragraph which you have to type to check your speed
     print("type this:- ", prompt, " ")
+
+    input("Press Enter when you are ready to check your speed")
+
+    # recording time for input
+    stime = time()
+    inprompt = input()
+    etime = time()
+
+    time = round(elapsedtime(stime, etime),2)
+    speed = speed(inprompt, stime, etime)
+    errors = tperror(prompt)
+
+    # print data to see result
     
+
+
+
 
                     
 
