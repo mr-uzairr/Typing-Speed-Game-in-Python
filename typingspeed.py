@@ -34,7 +34,19 @@ def speed(inprompt, stime, etime):
 
     return speed
 
- 
+# calculate the total elapsed time
+
+def elapsedtime(stime, etime):
+    time = etime - stime
+    return time
+
+if __name__ == '__main__':
+
+    prompt = "Test your typing speed with a fun Python game! Type the given sentence as fast and accurately as possible, and see your words per minute (WPM) score."
+     # paragraph which you have to type to check your speed
+    print("type this:- ", prompt, " ")
+    
+
                     
 
 
