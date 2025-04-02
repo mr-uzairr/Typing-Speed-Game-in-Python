@@ -58,7 +58,13 @@ if __name__ == '__main__':
     errors = tperror(prompt)
 
     # print data to see result
+    print("Total time elapsed: ", time, "seconds")
+    print("Your average typing speed was", speed, "words per minute (w/m)")
+    print("With the total of", errors, "errors")
+
     
+
+
 
 
 
